@@ -59,8 +59,8 @@ print(x-y)
 print(x*y)
 print(x/y)
 print(x**y)
-print(x//y)
-print(x % y)
+#print(x // y)
+#print(x % y)
 
 # Boolean  - true or false
 print(32.5 > 32)
@@ -78,10 +78,10 @@ print(new_list[4])
 print(new_list[-6])
 print(new_list[2 : 5 : 1])
 # To access the list of the sublist
-print(new_list[5[1]])
+print(new_list[5][1])
 new_list[5][1] = "float"  # here we can the value of int to float so, it is Muttable
 print(new_list[-1 : -5])
-print(len(new_list[4]))  # It gives the length of the False
+print(len(new_list[3]))  # It gives the length of the False
 
 # Tuple  - It is Immutable we can't change the elements
 tup1 = (9,8,7,6,[2,5,8],"Tuple")
@@ -89,8 +89,8 @@ print(type(tup1))
 print(len(tup1))
 #tup1[-3] = "hello" # Immutable we cant change elements one's assgined in variable
 print(type[1 : 4])
-print(type[2:6:1])
-print(type[-1:-5:-2]) 
+print(tup1[2:6:1])
+print(tup1[-1:-5:-2]) 
 
 
 
